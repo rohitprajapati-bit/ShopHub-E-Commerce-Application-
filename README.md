@@ -138,3 +138,9 @@ To set up and run the project locally, follow the steps below:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+##Android ScreenShot
+
+![Add a subheading (1)](https://github.com/user-attachments/assets/6000df8b-4201-41f4-96e4-aa35e0d6ad32)
+
+
+
