@@ -6,8 +6,6 @@ A Flutter-based e-commerce application that uses REST API for user authenticatio
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
-- [State Management](#state-management)
 - [API Integration](#api-integration)
 - [Pages and Functionality](#pages-and-functionality)
 - [Setup](#setup)
@@ -22,28 +20,12 @@ A Flutter-based e-commerce application that uses REST API for user authenticatio
 - **Product Details**: Shows detailed product information.
 - **Add to Cart**: Add products to the cart using API calls.
 - **Responsive UI**: Optimized for both mobile and tablet.
-- **MVVM Architecture**: Clear separation between UI and business logic.
 
 ## Technology Stack
 
 - **Framework**: Flutter
 - **Language**: Dart
-- **State Management**: Provider
 - **Backend**: REST API for authentication, products, and cart management.
-
-## Architecture
-
-This app follows the MVVM (Model-View-ViewModel) architecture, ensuring scalability and easy maintenance.
-
-### Key Components:
-
-- **Model**: Represents data (user info, products, cart).
-- **View**: UI elements, such as login, product list, and cart pages.
-- **ViewModel**: Handles the business logic and API calls, bridging the model and the view.
-
-## State Management
-
-The **Provider** package is used to manage the state of the app. This helps efficiently handle data fetched from APIs and ensures that the UI updates reactively to state changes.
 
 ## API Integration
 
